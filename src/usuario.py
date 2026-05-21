@@ -1,8 +1,9 @@
 class Usuario(object):
-    def create(name, email, password):
+    def create(name, email, password, created_at):
         return {
             "name": name,
             "email": email,
-            "password": password
+            "password": password,
+            "created_at": created_at
         }
     
